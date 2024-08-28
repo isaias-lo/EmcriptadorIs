@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    padding: 3%;
+    background-color: #E8E8E8;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.contenedor-caja-1{
+    width: 10%;
+}
+
+
+
+/* Contenido caja 2 */
+.contenedor-caja-2{
+    width: 50%;
+    
+}
+.textoArea{
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: transparent;
+    outline: none;
+    resize: none;
+    font-family: inherit;
+    font-size: inherit;
+    white-space: pre-wrap;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+::placeholder {
+    font-size: 20px;
+    opacity: 1; 
+}
+.botones{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boton-encrip{
+    cursor: pointer;
+    text-decoration: none;
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    border-color: darkblue;
+    background-color: #D8DFE8;
+}
+.boton-desencrip{
+    cursor: pointer;
+    text-decoration: none;
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    border-color: darkblue;
+    background-color: darkblue;
+    color: white;
+}
+#condicion{
+    display: none;
+    text-align: center;
+    color: olive;
+
+}
+
+/* Contenido caja 3 */
+.contenedor-caja-3{
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+}
+.contenedor-caja-3-mensaje{
+    margin: 5%;
+}
+#final{
+    height: 100%;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#botoncopiar{
+    cursor: copy;
+    display: none;
+    text-decoration: none;
+    width: 100%;
+    margin: 0;
+    height: 10%;
+    border-radius: 20px;
+    border-color: darkblue;
+    background-color: darkblue;
+    color: white;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main class="contenedor">
+        <section class="contenedor-caja-1">
+            <img class="icono" src="./imgs/Logo.png" alt="logo-alura">
+        </section>
+        <section class="contenedor-caja-2">
+            <textarea class="textoArea" id="textArea" placeholder="Ingrese el texto aqui"></textarea>
+            <p id="condicion">Ingresa letras minusculas y sin numeros, ni caracteres especiales</p>
+            <div class="botones">
+                <button class="boton-encrip" onclick="botonEncriptar()">Encriptar</button>
+                <button class="boton-desencrip" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="contenedor-caja-3">
+            <p class="contenedor-caja-3-mensaje" id="mensaje"></p>
+            <div id="final">
+                <img src="./imgs/Muñeco.png" alt="IngreseTexto">
+                <h1>Ningun mensaje fue encontrado</h1>
+                <p>Ingresa el texto que desees Encriptar o Desencriptar</p>
+            </div>
+            <button id="botoncopiar" onclick="copy()">Copiar</button>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+</html>
